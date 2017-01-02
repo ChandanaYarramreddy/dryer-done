@@ -32,7 +32,7 @@ void postJSON(String url, String payload) {
   Serial.print("POST URL: "); Serial.println(url);
   Serial.print("POST payload: "); Serial.println(payload);
   int httpCode = http.POST(payload);
-
+//kjjdksl
   if (httpCode > 0) {
     // HTTP header has been send and Server response header has been handled
     Serial.printf("[HTTP] POST... code: %d\n", httpCode);
